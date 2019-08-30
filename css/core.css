@@ -14,5 +14,24 @@
 	padding: 0 15px;
 }
 
+a {
+	text-decoration: none;
+}
+
+
+.btn {
+	font-family: 'ProximaNovaT', 'Arial', sans-serif;
+	font-weight: 400;
+	border-radius: 10px;
+	box-shadow: inset 0 0 0 2px #1cb88b;
+	padding: 9px 18px 8px;
+	color: #1cb88b;
+}
+
 body {
+	font-family: 'ProximaNovaT', 'Arial', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 22px;
+	color: #363636;
 }
