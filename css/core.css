@@ -9,7 +9,7 @@
 }
 
 .wrapper {
-	max-width: 1200px;
+	max-width: 1170px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
@@ -18,20 +18,32 @@ a {
 	text-decoration: none;
 }
 
-
 .btn {
-	font-family: 'ProximaNovaT', 'Arial', sans-serif;
-	font-weight: 400;
+	font-family: 'Proxima Nova Rg', sans-serif;
+	font-size: 16px;
 	border-radius: 10px;
+	white-space: nowrap;
 	box-shadow: inset 0 0 0 2px #1cb88b;
-	padding: 9px 18px 8px;
+	padding: 7px 18px 6px;
 	color: #1cb88b;
 }
 
+.btn:hover {
+	color: #fff;
+	box-shadow: inset 0 0 0 2px #fff;
+}
+
+.btn:active {
+	color: #eee;
+	box-shadow: inset 0 0 0 2px #eee;
+	transform: scale(0.98);
+}
+
 body {
-	font-family: 'ProximaNovaT', 'Arial', sans-serif;
-	font-weight: 300;
+	font-family: 'Proxima Nova Rg', sans-serif;
 	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
 	line-height: 22px;
 	color: #363636;
 }
