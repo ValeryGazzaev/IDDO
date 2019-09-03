@@ -40,6 +40,25 @@ a {
 	transform: scale(0.98);
 }
 
+.title {
+	position: relative;
+	font-family: 'Proxima Nova Rg';
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 60px;
+	max-width: 350px;
+	text-transform: uppercase;
+}
+
+.title::before {
+	position: absolute;
+	content: "";
+	bottom: 43px;
+	width: 370px;
+	height: 10px;
+	background-color: #fff;
+}
+
 body {
 	font-family: 'Proxima Nova Rg', sans-serif;
 	font-size: 14px;

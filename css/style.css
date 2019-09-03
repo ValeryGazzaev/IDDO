@@ -1,6 +1,6 @@
 @import url('core.css');
 @import url('blocks/header.css');
-
+@import url('blocks/services.css');
 @font-face {
     font-family: 'Proxima Nova Bl';
     src: url('../assets/fonts/ProximaNova-Black.eot');
