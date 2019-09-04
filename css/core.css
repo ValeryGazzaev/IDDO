@@ -50,10 +50,11 @@ a {
 	text-transform: uppercase;
 }
 
-.title::before {
+.title::after {
 	position: absolute;
 	content: "";
-	bottom: 43px;
+	left: 0;
+	bottom: -14px;
 	width: 370px;
 	height: 10px;
 	background-color: #fff;
