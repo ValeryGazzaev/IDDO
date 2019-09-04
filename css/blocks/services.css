@@ -16,10 +16,6 @@
 	margin-top: 22px;
 }
 
-.services-inner .title::after {
-	bottom: auto;
-}
-
 .services-blocks {
 	max-width: 780px;
 	display: -moz-flex;
@@ -57,8 +53,19 @@
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	font-size: 36px;
+	font-size: 34px;
 	line-height: 60px;
+}
+
+.services-blocks .block-4 i {
+	top: -13px;
+	left: 0;
+	width: 100px;
+	margin: 0 auto;
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
 }
 
 .services-blocks .services-blocks-text {
@@ -148,5 +155,8 @@
 		bottom: -14px;
 		left: 0;
 		width: 100%;
+	}
+	.services-blocks .block-4 i {
+		top: 18%;
 	}
 }
