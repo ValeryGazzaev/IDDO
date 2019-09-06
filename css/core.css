@@ -60,6 +60,17 @@ a {
 	background-color: #fff;
 }
 
+.plus-link {
+	display: inline-block;
+	font-size: 32px;
+	margin-top: 30px;
+	color: #1cb88b;
+}
+
+.plus-link:hover {
+	color: #fff;
+}
+
 body {
 	font-family: 'Proxima Nova Rg', sans-serif;
 	font-size: 14px;

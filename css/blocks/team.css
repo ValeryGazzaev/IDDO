@@ -1,0 +1,130 @@
+.team {
+	padding: 96px 0 136px;
+}
+
+.team-wrap .title {
+	margin-bottom: 93px;
+}
+
+.team-wrap .title::after {
+	bottom: -14px;
+	background-color: #363636;
+}
+
+.team-blocks {
+	max-width: 1160px;
+	position: relative;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.team-blocks [class^="block-"] {
+	position: relative;
+	max-width: 360px;
+}
+
+[class^="block-"] .team-blocks-text {
+	width: 260px;
+	margin-left: 100px;
+	margin-top: 44px;
+}
+
+.team-blocks .team-photo {
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	background-color: #cccccc;
+}
+
+.team-blocks .social {
+	position: absolute;
+	top: 65px;
+	right: 50px;
+	width: 170px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.team-blocks .social-btn {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #1cb88b;
+}
+
+.team-blocks .social-btn i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+	color: #fff;
+}
+
+.team-blocks .ig-btn i {
+	font-size: 28px;
+}
+
+.team-blocks .social-btn:hover {
+	background-color: #eee;
+}
+
+.team-blocks .social-btn:hover i {
+	color: #1cb88b;
+}
+
+.team-blocks [class^="block-"] p:nth-of-type(1) {
+	font-family: 'Proxima Nova Rg';
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #1cb88b;
+}
+
+.team-blocks [class^="block-"] p:nth-of-type(2) {
+	font-size: 14px;
+	color: #898989; 
+	font-family: 'Proxima Nova Lt';
+	font-weight: 300;
+	margin: 5px 0 18px;
+}
+
+.team .plus-link {
+	margin-top: 42px;
+}
+
+.team .plus-link:hover {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1110px) {
+	.team-blocks {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.team-blocks [class^="block-"] {
+		max-width: 100%;
+	}
+	[class^="block-"] .team-blocks-text {
+		width: 100%;
+		margin-left: 100px;
+		margin-top: 44px;
+	}
+}
