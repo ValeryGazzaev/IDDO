@@ -1,0 +1,78 @@
+.achievements {
+	padding: 84px 0 76px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.achievements-blocks {
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: #fff;
+}
+
+.achievements-blocks i {
+	font-size: 62px;
+	color: #fff;
+}
+
+.achievements-blocks [class^="block-"] {
+	text-align: center;
+	flex-basis: 24%;
+}
+
+.achievements-blocks [class^="block-"] p:nth-of-type(1) {
+	font-size: 72px;
+	line-height: 72px;
+	font-family: 'Proxima Nova Th';
+	font-weight: 100;
+	margin-top: 34px;
+	margin-bottom: 1px;
+}
+
+.achievements-blocks [class^="block-"] p:nth-of-type(2) {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Proxima Nova Rg';
+	font-weight: 700;
+}
+
+@media (max-width: 920px) {
+	.achievements-blocks i {
+		font-size: 42px;
+	}
+	.achievements-blocks [class^="block-"] p:nth-of-type(1) {
+		font-size: 50px;
+		line-height: 50px;
+		margin-top: 22px;
+	}
+}
+@media (max-width: 630px) {
+	.achievements {
+		padding: 60px 0;
+	}
+	.achievements-blocks i {
+		font-size: 32px;
+	}
+	.achievements-blocks [class^="block-"] p:nth-of-type(1) {
+		font-size: 32px;
+		line-height: 32px;
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 540px) {
+	.achievements {
+		padding: 30px 0;
+	}
+	.achievements-blocks [class^="block-"] {
+		flex-basis: 48%;
+	}
+	.achievements-blocks i {
+		font-size: 32px;
+		line-height: 50px;
+	}
+}
