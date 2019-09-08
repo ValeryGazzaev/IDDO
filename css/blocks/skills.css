@@ -1,0 +1,126 @@
+.skills {
+	padding: 96px 0 136px;
+}
+
+.skills-wrap .title {
+	margin-bottom: 93px;
+}
+
+.skills-wrap .title::after {
+	bottom: -14px;
+	background-color: #363636;
+}
+
+.skills-percents,
+.skills-inner {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.skills-left {
+	width: 770px;
+}
+
+.skills-right {
+	max-width: 370px;
+}
+
+.skills-percents p {
+	position: relative;
+	width: 170px;
+	height: 170px;
+	line-height: 170px;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Proxima Nova Rg';
+	color: #1cb88b;
+}
+
+.skills-percents p::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 10px solid #1cb88b;
+	border-left-color: transparent;
+	transform: rotate(45deg);
+}
+
+.skills-percents p:nth-child(2)::before {
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+}
+
+.skills-percents p:nth-child(4)::before {
+	border-bottom-color: transparent;
+}
+
+.skills-about {
+	max-width: 670px;
+	margin-left: auto;
+	margin-top: 46px;
+}
+
+.skills-about p:nth-child(1) {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: 'Proxima Nova Rg';
+	color: #1cb88b;
+}
+
+.skills-about p:nth-child(2) {
+	margin: 18px 0 9px;
+}
+
+.skills-right p {
+	width: 370px;
+}
+
+.skills-right p:nth-child(odd) {
+	border: 1px solid #ebebeb;
+	border-radius: 10px;
+	padding: 12px 0;
+}
+
+.skills-right p:nth-child(odd) {
+	position: relative;
+	font-weight: 700;
+	text-indent: 10px;
+	color: #898989;
+	margin-bottom: 10px;
+}
+
+.skills-right p:nth-child(odd) {
+	text-indent: 50px;
+}
+
+.skills-right p:nth-child(odd) i {
+	position: absolute;
+	left: -30px;
+	font-size: 20px;
+}
+
+.skills-right p:nth-child(odd):focus {
+	color: #1cb88b;
+	outline: none;
+}
+
+.skills-right p:nth-child(even) {
+	width: 330px;
+	font-family: 'Proxima Nova Lt';
+	font-weight: 300;
+	color: #363636;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+

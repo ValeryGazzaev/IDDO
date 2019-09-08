@@ -5,6 +5,7 @@
 @import url('blocks/reviews.css');
 @import url('blocks/team.css');
 @import url('blocks/achievements.css');
+@import url('blocks/skills.css');
 @font-face {
     font-family: 'Proxima Nova Bl';
     src: url('../assets/fonts/ProximaNova-Black.eot');
