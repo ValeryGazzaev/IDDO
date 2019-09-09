@@ -5,11 +5,12 @@ jQuery(document).ready(function(){
 });
 
 jQuery(document).ready(function(){
-	$('.text-dd-blocks .about-sub-title').eq(2).addClass('active');
-	$('.text-dd-blocks .slide-p').eq(2).show();
+	$('.text-dd-blocks .about-sub-title').addClass('active');
+	$('.text-dd-blocks .slide-p').hide();
+	$('.text-dd-blocks .slide-p').eq(0).show();
 	$('.about-sub-title').click(function(){
-		$(this).next('p').slideToggle('slow')	
-		.siblings('.slide-p:visible').slideUp("slow");	
+		$(this).next('p').slideDown(400)	
+		.siblings('.slide-p:visible').slideUp(400);	
 		$(this).toggleClass('active');
 		$(this).siblings('.about-sub-title').removeClass('active');
 	});
